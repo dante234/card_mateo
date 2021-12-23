@@ -1,0 +1,32 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: white;
+    border-radius: 20%;
+    overflow : hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.card2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    overflow : hidden;
+    margin-top: -70px;
+
+}
+
+.card2 img {
+    width: 100%;
+}
+
